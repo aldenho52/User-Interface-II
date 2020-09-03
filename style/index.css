@@ -153,6 +153,24 @@ a {
 }
 
 #projects .box img {
-    height: 30vh;
+    height: 80%;
     border-radius: 10px;
+    object-position: cover;
+    width: 100%;
+}
+
+/* Footer  */
+
+footer {
+    display: inleine-block;
+    background: #420d0d;
+    color: lightgray;
+    text-align: center;
+}
+
+footer a {
+    display: inline-block;
+    color: white;
+    padding: 2% 1% 1% 2%;
+    font-size: 3rem;
 }
